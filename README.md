@@ -16,32 +16,6 @@ A swift and efficient file downloader for the command line, built in Python.
 
 There are two recommended ways to install this application.
 
-### Option 1: Virtual Environment (Recommended for Development)
-
-This method is best if you are working on the code. It keeps all dependencies isolated from your main system.
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/lordvonko/download-app.git
-    cd download-app
-    ```
-
-2.  **Create and activate a virtual environment:**
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
-3.  **Install in editable mode:**
-    The `-e` flag allows you to make changes to the code without reinstalling.
-    ```bash
-    pip install -e .
-    ```
-    The `download-app` command will be available as long as the virtual environment is active.
-
-### Option 2: Using `pipx` (Recommended for Global Use)
-
-This is the best method if you want to use `download-app` like any other command-line tool, from anywhere on your system, without activating a virtual environment.
 
 `pipx` installs the application and its dependencies into an isolated environment but makes the command globally available.
 
@@ -56,18 +30,12 @@ This is the best method if you want to use `download-app` like any other command
     python3 -m pipx ensurepath
     ```
     *(You may need to restart your terminal after this step.)*
-
-2.  **Install the application with `pipx`:**
-    Navigate to the project directory (`/path/to/download-app`) and run:
     ```bash
-    pipx install .
+    pipx install git+https://github.com/lordvonko/download-app.git
     ```
     The `download-app` command will now be available globally.
 
 ---
-
-**A Note on Global Installation:** While you can technically run `pip install .` outside of a virtual environment, it is **strongly discouraged**. This can lead to dependency conflicts and may interfere with system-level Python scripts.
-
 ## Usage
 
 Once installed, you can use the application from your terminal.
