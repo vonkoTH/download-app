@@ -14,9 +14,6 @@ A swift and efficient file downloader for the command line, built in Python.
 
 **Prerequisites:** Ensure you have Python 3.6+ installed.
 
-There are two recommended ways to install this application.
-
-
 `pipx` installs the application and its dependencies into an isolated environment but makes the command globally available.
 
 1.  **Install `pipx` (if you haven't already):**
