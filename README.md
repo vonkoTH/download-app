@@ -1,4 +1,4 @@
-# File Downloader (CLI)
+<h1 align="center">File Downloader (CLI)</h1>
 
 A swift and efficient file downloader for the command line, built in Python.
 
