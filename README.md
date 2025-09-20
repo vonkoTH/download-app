@@ -28,7 +28,7 @@ A swift and efficient file downloader for the command line, built in Python.
     ```
     *(You may need to restart your terminal after this step.)*
     ```bash
-    pipx install git+https://github.com/lordvonko/download-app.git
+    pipx install git+https://github.com/vonkoTH/download-app.git
     ```
     The `download-app` command will now be available globally.
 
